@@ -48,7 +48,8 @@ import urllib.request
 import shutil
 
 # Root directory of the project
-ROOT_DIR = os.path.abspath("../../")
+ROOT_DIR = os.path.abspath(".")
+print(ROOT_DIR)
 
 # Import Mask RCNN
 sys.path.append(ROOT_DIR)  # To find local version of the library
